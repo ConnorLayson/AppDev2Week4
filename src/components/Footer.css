@@ -1,0 +1,6 @@
+/* AI-assisted styling: understated footer layout and typography. */
+.site-footer { display: flex; align-items: center; justify-content: space-between; gap: 18px; padding: 28px max(20px, calc((100vw - 1160px) / 2)); border-top: 1px solid #e5e9ef; background: #fff; }
+.footer-brand { color: #182230; font-size: .98rem; font-weight: 900; letter-spacing: -.04em; text-decoration: none; }
+.footer-brand span { color: #146c60; }
+.site-footer p, .footer-copyright { color: #778191; font-size: .8rem; margin: 0; }
+@media (max-width: 600px) { .site-footer { flex-direction: column; align-items: flex-start; gap: 9px; padding: 24px 20px; } }

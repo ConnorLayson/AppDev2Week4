@@ -1,0 +1,12 @@
+/* AI-assisted styling: header layout and circular cart-count badge. */
+.site-header { min-height: 78px; padding: 0 max(20px, calc((100vw - 1160px) / 2)); display: flex; align-items: center; justify-content: space-between; gap: 24px; background: #fff; border-bottom: 1px solid #e8ebf0; }
+.brand { display: inline-flex; align-items: center; gap: 10px; color: #182230; text-decoration: none; font-weight: 850; letter-spacing: -.04em; font-size: 1.15rem; }
+.brand-mark { display: grid; place-items: center; width: 35px; height: 35px; border-radius: 11px; color: white; background: #146c60; font-weight: 900; }
+.brand-accent { color: #146c60; }
+.header-nav { display: flex; align-items: center; gap: 26px; }
+.header-nav > a { text-decoration: none; color: #586273; font-size: .92rem; font-weight: 700; }
+.header-nav > a:hover { color: #146c60; }
+.header-nav .header-cart { display: inline-flex; align-items: center; gap: 7px; color: #182230; }
+.cart-icon { font-size: 1.15rem; }
+.cart-badge { display: inline-grid; place-items: center; min-width: 23px; height: 23px; padding: 0 6px; border-radius: 999px; color: white; background: #e45c45; font-size: .75rem; font-weight: 850; }
+@media (max-width: 480px) { .site-header { padding: 0 14px; min-height: 68px; } .brand { font-size: 1rem; } .header-nav { gap: 14px; } .header-nav > a:first-child { display: none; } .cart-label { display: none; } }
